@@ -1,0 +1,14 @@
+import java.io.File;
+public class FileHandling{
+	public static void main(String[] args){
+		File f = new File("D:\\java\\core Java\\java files\\resume.txt");
+		//File f = new File("D:/java/core Java/java files");
+		f.createNewFile();
+	}
+}	
+
+
+//Absolute path(full path - entire location)
+//Relative path - ./app.java
+
+//seperators => / \
